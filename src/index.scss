@@ -1,0 +1,19 @@
+@use '/src/styles/variables.scss' as * ;
+html {
+    font-size: 16px;
+    @media (max-width:768px) {
+    font-size: 12px;
+    }
+}
+body {
+    margin: 0;
+    padding: 0;
+    height: 100dvh;
+    width: 100dvw;
+    background-color: $primarycolor;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Google Sans", sans-serif;
+    z-index: 1;
+}
