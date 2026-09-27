@@ -1,1 +1,18 @@
 @use '/src/styles/variables.scss' as * ;
+#switch {
+    position: fixed;
+    top: 2rem;
+    left: 4rem;
+    width: 3rem;
+    scale: 1.5;
+    @media (max-width:768px) {
+        left: 2rem;
+    }
+}
+
+#switch:not(.ant-switch-checked) {
+    background-color: $secondarycolor;
+}
+#switch.ant-switch-checked {
+    background-color: $accentcolor2;
+}

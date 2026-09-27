@@ -10,7 +10,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@ant-design/icons": "^6.3.4",
     "@fontsource/google-sans": "^5.3.1",
+    "antd": "^6.6.5",
     "react": "^19.2.8",
     "react-dom": "^19.2.8"
   },

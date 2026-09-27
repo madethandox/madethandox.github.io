@@ -17,3 +17,11 @@ export function circleclick() {
     }, 2000);}
 }
 }
+export const SwitchChange = (checked: boolean) => {
+    const body = document.body;
+    if (checked) {
+        body.style.backgroundColor = "#F2EFE7" ;
+    } else {
+        body.style.backgroundColor = '#191919' ;
+    }
+};
